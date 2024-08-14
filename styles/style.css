@@ -291,7 +291,6 @@ span {
 .instagram-container {
     max-width: 1200px;
     margin: 0 auto;
-    display: flex;
     padding: 0;
     margin-top: 100px;
     display: flex;
@@ -341,3 +340,83 @@ span {
     object-fit: cover;
 }
 /* instagram section style ends here */
+
+/* latest deal section style starts here */
+.latest-deal-container {
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-image: url('../images/rectangle9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.latest-deal-container h1 {
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+.latest-deal-container p {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+.input-content {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 0;
+    gap: 16px;
+}
+.input-content input {
+    width: 500px;
+    height: 64px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    padding: 0px 22px;
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.input-content button {
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+/* latest deal section style ends here */
