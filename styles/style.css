@@ -286,3 +286,58 @@ span {
     height: 420px;
 }
 /* hot deal section style ends here */
+
+/* instagram section style starts here */
+.instagram-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.instagram-container h1 {
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.instagram-container p {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 48px;
+}
+.instagram-img-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+}
+.instagram-item {
+    width: 282px;
+    height: 336px;
+    padding: 0;
+    margin: 0;
+}
+.instagram-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* instagram section style ends here */
